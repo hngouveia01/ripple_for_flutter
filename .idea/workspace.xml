@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="383bc67b-c1ff-47e1-ae8b-3f7ce059c5d2" name="Default Changelist" comment="" />
+    <list default="true" id="383bc67b-c1ff-47e1-ae8b-3f7ce059c5d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ios" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aUgQWgM4aXJV5QcVxsk3bdMzkn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -44,25 +48,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1586796850216">
-      <screen x="0" y="23" width="1680" height="976" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1586862272546">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1586796555295" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1586862272546" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.976@0.23.1680.976" timestamp="1586796850216" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1586796850197">
-      <screen x="0" y="23" width="1680" height="976" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1586862272544">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1586796555294" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1586862272544" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.976@0.23.1680.976" timestamp="1586796850197" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1586796850166">
-      <screen x="0" y="23" width="1680" height="976" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1586862272544">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1586796555293" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1586862272544" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.976@0.23.1680.976" timestamp="1586796850166" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1586796850201">
-      <screen x="0" y="23" width="1680" height="976" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1586862272545">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1586796555295" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1586862272545" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.976@0.23.1680.976" timestamp="1586796850201" />
+    <state x="494" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1586801394677">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="494" y="359" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586801394677" />
   </component>
 </project>

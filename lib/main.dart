@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -14,8 +16,8 @@ void main() {
 class Ripples extends StatefulWidget {
   const Ripples({
     Key key,
-    this.size = 80.0,
-    this.color = Colors.blue,
+    this.size = 100.0, // animation size
+    this.color = Colors.lightBlueAccent, // adjust color
     this.onPressed,
     @required this.child,
   }) : super(key: key);
@@ -39,10 +41,11 @@ class _CirclePainter extends CustomPainter {
   final Animation<double> _animation;
 
   void circle(Canvas canvas, Rect rect, double value) {
-    final double opacity = (1.0 - (value / 4.0)).clamp(0.0, 1.0);
+    final double opacity = (1.0 - (value / 3.0)).clamp(0.0, 1.0); // opacity
     final Color _color = color.withOpacity(opacity);
 
-    final double size = rect.width / 2;
+    // wave size
+    final double size = rect.width;
     final double area = size * size;
     final double radius = math.sqrt(area * value / 4);
 
@@ -70,7 +73,7 @@ class _RipplesState extends State<Ripples> with TickerProviderStateMixin {
   void initState() {
     super.initState();
     _controller = AnimationController(
-      duration: const Duration(milliseconds: 2000),
+      duration: const Duration(milliseconds: 4000), // time showing circles
       vsync: this,
     )..repeat();
   }
